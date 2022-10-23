@@ -1,9 +1,9 @@
 import React from "react";
-import {Example} from "./components"
+import { Navbar} from "./components"
 
 function App() {
   return (
-  <Example></Example>
+  <Navbar></Navbar>
   );
 }
 

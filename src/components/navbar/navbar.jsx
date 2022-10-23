@@ -1,6 +1,6 @@
-import 'navbar.css';
+import './navbar.css';
 
-function App() {
+function Navbar() {
     return (
     <header className="navbar">
         <a href="home.html" title="Home Page" className="active"> Home </a>
@@ -11,3 +11,5 @@ function App() {
     </header>
     );
   }
+
+export default Navbar
