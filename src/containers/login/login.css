@@ -1,0 +1,57 @@
+body {
+    color:rgb(68, 13, 119);
+    background-color: rgb(229, 202, 255);
+    font-family: Verdana;
+    margin: 0;
+}
+
+main { 
+    margin: auto;
+    margin-top: 3%;
+    width: 90%;
+    padding: 10px;
+    background-color: hsl(268, 90%, 62%);
+    color: white;
+    border: 2px solid rgb(81, 21, 247);
+    border-radius: 25px;
+    /*text-align: center;*/
+}
+
+
+button.signup {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 10px;
+    background-color: hsl(268, 90%, 62%);
+    color: white;
+    border: 2px solid rgb(81, 21, 247);
+    border-radius: 25px;
+}
+
+button:hover.signup {
+    background-color: white;
+    color: hsl(268, 90%, 62%);
+    border: 2px solid rgb(81, 21, 247);
+}
+
+
+.login {
+    text-align: center;
+}
+
+.title.login {
+    margin-top: 1%;
+}
+
+
+.login  h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+a.forgot {
+    text-align: center;
+}
