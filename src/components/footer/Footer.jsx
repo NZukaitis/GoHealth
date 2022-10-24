@@ -1,10 +1,11 @@
 import './footer.css';
+import logo from './logo.svg'
 
 function Footer() {
     return (
-    <header className="footer">
-        
-    </header>
+    <footer className="footer">
+        <img src={logo} alt="Logo"/>;
+    </footer>
     );
 }
 
