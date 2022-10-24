@@ -1,5 +1,5 @@
-import 'recipe.css';
-import '../components/narbar/navbar.jsx';
+import './recipe.css';
+
 
 function Recipe() {
     return (
