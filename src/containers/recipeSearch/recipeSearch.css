@@ -49,3 +49,14 @@ main {
     grid-auto-rows: 15rem;
 
 }
+
+button.recipe  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: .4rem;
+    height: 15rem;
+    width: 15rem;
+}
