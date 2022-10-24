@@ -3,7 +3,7 @@ import './navbar.css';
 ///import Home from "./containers/home/Home";
 //import login from "./containers/login/Login"
 
-import {Home ,Login , Recipe ,RecipeSearch} from '../../containers'
+import {Home ,Login , Recipe ,RecipeSearch, FitnessSearch} from '../../containers'
 //import RecipeSearch from "./containers/recipeSearch/RecipeSearch";
 import {Route, Link} from "react-router-dom";
 
@@ -16,6 +16,7 @@ function Navbar() {
         <Link to = "/" className='home'>Home</Link>
         <Link to="/containers/login/Login" className='login'>Login</Link>
         <Link to="/containers/recipeSearch/RecipeSearch"className='recipeSearch'>RecipeSearch </Link>
+        <Link to="/containers/fitnessSearch/FitnessSearch"className='fitnessSearch'>FitnessSearch </Link>
 
         {/* <a href="home.html" title="Home"> Home </a>
             <a href="recipeSearch.html" title="Recipe Search Page"> Recipe Search </a>
