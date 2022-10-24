@@ -1,5 +1,5 @@
 
-function App() {
+function Home() {
     return (
 <div className="App">
         <header className="App-header">
@@ -19,3 +19,5 @@ function App() {
       </div>
     );
   }
+
+  export default Home;
