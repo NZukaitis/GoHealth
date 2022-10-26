@@ -70,7 +70,7 @@ function FitnessSearch() {
             </div>
         </main>
 
-            </div>
+        </div>
         );
         }
         export default FitnessSearch;
