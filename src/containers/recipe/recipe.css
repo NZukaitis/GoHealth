@@ -1,20 +1,18 @@
 body {
-    color:rgb(68, 13, 119);
-    background-color: rgb(229, 202, 255);
+    color:rgb(83, 150, 100);
+    background-color: rgb(229, 226, 226);
     font-family: Verdana;
     margin: 0;
 }
-
-/* HOME */
 
 main { 
     margin: auto;
     margin-top: 3%;
     width: 90%;
     padding: 10px;
-    background-color: hsl(268, 90%, 62%);
+    background-color: hsl(145, 63%, 33%);
     color: white;
-    border: 2px solid rgb(81, 21, 247);
+    border: 2px solid rgb(65, 65, 65);
     border-radius: 25px;
     /*text-align: center;*/
 }
@@ -55,7 +53,7 @@ button {
     width: 15rem;
     
     background-color: rgb(206, 206, 206);
-    color:hsla(268, 100%, 27%);
+    color:rgb(11, 82, 49);
     border-radius: 25px;
 
     text-align: center;
