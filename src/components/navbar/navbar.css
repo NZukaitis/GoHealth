@@ -1,7 +1,7 @@
 /* NAV BAR*/
 .navbar {
     overflow: hidden; 
-    background-color: hsla(268, 100%, 27%, 0.8);
+    background-color: hsla(140, 70%, 26%, 0.8);
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -17,12 +17,12 @@
 }
 
 .navbar a:hover {
-    background: hsla(272, 100%, 59%, 0.8); 
+    background: hsla(140, 63%, 45%, 0.8); 
     color: white; 
 }
 
 .active {
-    background: hsla(272, 49%, 28%, 0.8); 
+    background: hsla(141, 72%, 18%, 0.8); 
     color: white; 
 }
 
