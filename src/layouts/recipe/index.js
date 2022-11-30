@@ -1,3 +1,5 @@
+import './recipe.css';
+
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -10,10 +12,6 @@ import MDTypography from "components/MDTypography";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
-
-
-
-
 
 
 function Recipe ()  {
@@ -29,7 +27,7 @@ function Recipe ()  {
             <h2> RECIPE NAME</h2>
             <div class="grid">
                 <div class="recipeImage">
-                    https://cookingformysoul.com/wp-content/uploads/2022/05/triple-berry-smoothie-feat-min.jpg
+                    {/* https://cookingformysoul.com/wp-content/uploads/2022/05/triple-berry-smoothie-feat-min.jpg */}
                     <img src="images/smoothie.jpg" alt="smoothie"></img>
                 </div>
                 
