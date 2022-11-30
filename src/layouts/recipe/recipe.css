@@ -1,0 +1,95 @@
+body {
+    color:rgb(83, 150, 100);
+    background-color: rgb(229, 226, 226);
+    font-family: Verdana;
+    margin: 0;
+}
+
+main { 
+    margin: auto;
+    margin-top: 3%;
+    width: 90%;
+    padding: 10px;
+    background-color: hsl(145, 63%, 33%);
+    color: white;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 25px;
+    /*text-align: center;*/
+}
+
+
+/* RECIPE PAGE*/
+
+	/* button links*/
+button {
+    border-radius: 25px;
+    display: inline-block;
+    padding: 60px;
+    border: 4px solid white;
+    margin: 5px;
+    transition-duration: 0.5s;
+}
+
+
+
+/* GRID */
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:
+        repeat(auto-fit, minmax(15rem, 1fr))
+    /*grid-template-columns: 1fr;*/
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: .4rem;
+    height: 15rem;
+    width: 15rem;
+    
+    background-color: rgb(206, 206, 206);
+    color:rgb(11, 82, 49);
+    border-radius: 25px;
+
+    text-align: center;
+    /*object-fit: none;*/
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-auto-rows: 15rem;
+
+}
+
+.recipe img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 25px;
+    /*padding: 0.25rem;*/
+}
+
+.ingredients .steps .recipeImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: .4rem;
+    /*object-fit: none;*/
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-auto-rows: 15rem;
+}
+
+.recipeImage img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 25px;
+}
