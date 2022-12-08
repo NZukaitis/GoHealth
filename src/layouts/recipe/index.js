@@ -19,16 +19,16 @@ function Recipe ()  {
     return (
         <div>
         
-        {/* <h1 class="title">
+        <h1 class="title">
             SalusWell
         </h1>
 
         <main>
             <h2> RECIPE NAME</h2>
             <div class="grid">
-                <div class="recipeImage"> */}
+                <div class="recipeImage">
                     {/* https://cookingformysoul.com/wp-content/uploads/2022/05/triple-berry-smoothie-feat-min.jpg */}
-                    {/* <img src="images/smoothie.jpg" alt="smoothie"></img>
+                    <img src="images/smoothie.jpg" alt="smoothie"></img>
                 </div>
                 
                 <div class="ingredients">
@@ -52,7 +52,7 @@ function Recipe ()  {
 
 
             </div>
-        </main> */}
+        </main>
         </div>
         );
         }

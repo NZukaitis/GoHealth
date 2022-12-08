@@ -39,7 +39,7 @@ import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
-import Recipe from "layouts/recipe";
+import Recipe from "layouts/recipeCollection";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -74,7 +74,7 @@ const routes = [
     name: "Recipe",
     key: "recipe",
     icon: <Icon fontSize="small">food_bank</Icon>,
-    route: "/recipe",
+    route: "/recipeCollection",
     component: <Recipe />,
   },
   {
