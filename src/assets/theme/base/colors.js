@@ -20,7 +20,7 @@
 
 const colors = {
   background: {
-    default: "#f0f2f5",
+    default: "#adb5bd",
   },
 
   text: {
@@ -76,6 +76,11 @@ const colors = {
   light: {
     main: "#f0f2f5",
     focus: "#f0f2f5",
+  },
+
+  medium: {
+    main: "#adb5bd",
+    focus: "#adb5bd",
   },
 
   dark: {

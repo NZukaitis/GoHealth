@@ -31,6 +31,7 @@
 */
 
 // Material Dashboard 2 React layouts
+import Landing from "layouts/landing"
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
@@ -125,6 +126,15 @@ const routes = [
     route: "/authentication/sign-up",
     component: <SignUp />,
   },
+  {
+    type: "collapse",
+    name: "Home",
+    key: "landing",
+    icon: <Icon fontSize="small">assignment</Icon>,
+    route: "/landing",
+    component: <Landing />,
+  },
+
 ];
 
 export default routes;

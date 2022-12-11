@@ -1,7 +1,7 @@
 /**
 ========================================================
 
- =========================================================
+=========================================================
 
   */
 
@@ -142,7 +142,7 @@ export default function App() {
     <CacheProvider value={rtlCache}>
       <ThemeProvider theme={darkMode ? themeDarkRTL : themeRTL}>
         <CssBaseline />
-        {layout === "dashboard" && (
+        {layout === "landing" && (
           <>
             <Sidenav
               color={sidenavColor}
@@ -159,7 +159,7 @@ export default function App() {
         {layout === "vr" && <Configurator />}
         <Routes>
           {getRoutes(routes)}
-          <Route path="*" element={<Navigate to="/dashboard" />} />
+          <Route path="*" element={<Navigate to="/landing" />} />
         </Routes>
       </ThemeProvider>
     </CacheProvider>
@@ -171,7 +171,7 @@ export default function App() {
           <Sidenav
             color={sidenavColor}
             brand={(transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite}
-            brandName="GoHealti"
+            brandName="GoHealthi"
             routes={routes}
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
@@ -183,7 +183,7 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        <Route path="*" element={<Navigate to="/dashboard" />} />
+        <Route path="*" element={<Navigate to="/landing" />} />
       </Routes>
     </ThemeProvider>
   );
