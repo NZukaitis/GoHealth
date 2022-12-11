@@ -88,7 +88,7 @@ function Recipe() {
                                 />
                                 <CardMedia
                                     component="img"
-                                    height="200"
+                                    height="175"
                                     image={homeDecor1}
                                     sx={{objectPosition: "center"}}
                                 />
@@ -152,7 +152,7 @@ function Recipe() {
                                 />
                                 <CardMedia
                                     component="img"
-                                    height="200"
+                                    height="175"
                                     image={homeDecor1}
                                     sx={{objectPosition: "center"}}
                                 />
@@ -216,7 +216,7 @@ function Recipe() {
                                 />
                                 <CardMedia
                                     component="img"
-                                    height="200"
+                                    height="175"
                                     image={homeDecor1}
                                     sx={{objectPosition: "center"}}
                                 />
