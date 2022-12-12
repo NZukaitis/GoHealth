@@ -11,8 +11,15 @@
  =========================================================
 
   */
+ 
 
 import { useState } from "react";
+
+import {Auth} from 'aws-amplify';
+import config from 'aws-exports'
+import { Amplify } from "aws-amplify";
+
+
 
 // react-router-dom components
 import { Link } from "react-router-dom";
@@ -39,12 +46,30 @@ import BasicLayout from "layouts/authentication/components/BasicLayout";
 
 // Images
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
-
+Amplify.configure(config)
 function Basic() {
-  const [rememberMe, setRememberMe] = useState(false);
+  /*const[ email , setEmail] = useState("");
+  const[ password , setPassword] = useState("");
+
+
+  
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
-
+  const handleSetEmail = e =>{
+    setEmail(e.target.value)
+  }
+  const handleSetPassword = e =>{
+    setPassword(e.target.value)
+  }
+  async function signIn(){
+    try{
+      await Auth.signIn(email,password);
+    }catch(err){
+      console.log({err})
+    }
+  }*/
+  const handleSetRememberMe = () => setRememberMe(!rememberMe);
+  const [rememberMe, setRememberMe] = useState(false);
   return (
     <BasicLayout image={bgImage}>
       <Card>
@@ -83,10 +108,10 @@ function Basic() {
         <MDBox pt={4} pb={3} px={3}>
           <MDBox component="form" role="form">
             <MDBox mb={2}>
-              <MDInput type="email" label="Email" fullWidth />
+              <MDInput type="email" label="Email" fullWidth   />
             </MDBox>
             <MDBox mb={2}>
-              <MDInput type="password" label="Password" fullWidth />
+              <MDInput type="password" label="Password"  fullWidth />
             </MDBox>
             <MDBox display="flex" alignItems="center" ml={-1}>
               <Switch checked={rememberMe} onChange={handleSetRememberMe} />
@@ -101,7 +126,7 @@ function Basic() {
               </MDTypography>
             </MDBox>
             <MDBox mt={4} mb={1}>
-              <MDButton variant="gradient" color="info" fullWidth>
+              <MDButton variant="gradient" color="info" fullWidth >
                 sign in
               </MDButton>
             </MDBox>

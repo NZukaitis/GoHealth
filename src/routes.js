@@ -42,6 +42,8 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Recipe from "layouts/recipe";
 import Soap from "layouts/soapNotes"
+import Booking from "layouts/booking";
+
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -92,16 +94,16 @@ const routes = [
     name: "Fitness",
     key: "fitness",
     icon: <Icon fontSize="small">food_bank</Icon>,
-    route: "/dashboard",
+    route: "/fitness",
     component: <RTL />,
   },
   {
     type: "collapse",
     name: "Appointment",
-    key: "rtl",
+    key: "appointment",
     icon: <Icon fontSize="small">food_bank</Icon>,
-    route: "/dashboard",
-    component: <RTL />,
+    route: "/booking",
+    component: <Booking />,
   },
   {
     type: "collapse",
