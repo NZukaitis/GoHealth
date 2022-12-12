@@ -101,7 +101,7 @@ function Header({ children }) {
                 John Doe
               </MDTypography>
               <MDTypography variant="button" color="text" fontWeight="regular">
-                Patient
+                Client
               </MDTypography>
             </MDBox>
           </Grid>

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gohealthi-dev-162719-authRole",
+      "UnauthRoleArn": "arn:aws:iam::675512296660:role/amplify-gohealthi-dev-162719-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::675512296660:role/amplify-gohealthi-dev-162719-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gohealthi-dev-162719-deployment",
+      "UnauthRoleName": "amplify-gohealthi-dev-162719-unauthRole",
+      "StackName": "amplify-gohealthi-dev-162719",
+      "StackId": "arn:aws:cloudformation:us-east-1:675512296660:stack/amplify-gohealthi-dev-162719/9a116870-799a-11ed-8b41-0a094636a459",
+      "AmplifyAppId": "d2777a49km4iuy"
+    },
+    "categories": {
+      "auth": {
+        "gohealthi1cd3131e": {}
+      }
+    }
+  }
+}

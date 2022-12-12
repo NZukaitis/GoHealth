@@ -41,6 +41,7 @@ import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Recipe from "layouts/recipe";
+import Booking from "layouts/booking";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -89,10 +90,10 @@ const routes = [
   {
     type: "collapse",
     name: "Appointment",
-    key: "rtl",
+    key: "appointment",
     icon: <Icon fontSize="small">food_bank</Icon>,
-    route: "/dashboard",
-    component: <RTL />,
+    route: "/booking",
+    component: <Booking />,
   },
   {
     type: "collapse",
