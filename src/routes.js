@@ -41,6 +41,7 @@ import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Recipe from "layouts/recipe";
+import Soap from "layouts/soapNotes"
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -61,6 +62,14 @@ const routes = [
     icon: <Icon fontSize="small">table_view</Icon>,
     route: "/tables",
     component: <Tables />,
+  },
+  {
+    type: "collapse",
+    name: "Soap",
+    key: "soap",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/soapNotes",
+    component: <Soap />,
   },
   {
     type: "collapse",
